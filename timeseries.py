@@ -23,3 +23,4 @@ modelforecast['yhat']=modelforecast['yhat'].astype(int)
 print(modelforecast.columns)
 forecast = modelforecast[['ds','yhat']]
 figure=Model.plot_components(modelforecast)
+

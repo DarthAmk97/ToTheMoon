@@ -61,6 +61,7 @@ predictions = LR1.predict(valuestopredict)
 print("Predictions: \n", dftest['date'].tail(9), predictions)
 print("Actual Values:\n ", dfactual.tail(9))
 
+
 #score1 = LR1.score(x_train, y_train)
 #score = LR1.score(x_test, y_test)
 #cm = metrics.confusion_matrix(y_test, predictions)

@@ -46,6 +46,7 @@ print(df1.head())
 #df1.newvalue = df1.newvalue.shift(+1)
 #df1 = df1.iloc[1:-1]
 
+
 x_train, x_test, y_train, y_test = train_test_split(df, df1, test_size=0.4, random_state=0)
 LR1 = LogisticRegression(solver='newton-cg', max_iter=40, tol=0.0001)
 
