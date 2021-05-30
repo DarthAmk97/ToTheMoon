@@ -42,27 +42,32 @@ def funcdatagather(filenameforfile,stringval):
     btc_df.to_csv(filenameforfile)
 
 def main():
-    hourly = '1h'
-    filenameforfile = 'btc_bars_1h.csv'
-    funcdatagather(filenameforfile, hourly)
+    #hourly = '1h'
+    #filenameforfile = 'btc_bars_1h.csv'
+    #funcdatagather(filenameforfile, hourly)
+    #hourly = '2h'
+    #filenameforfile = "btc_bars_2h.csv"
+    #funcdatagather(filenameforfile, hourly)
+    #hourly = '4h'
+    #filenameforfile = 'btc_bars_4h.csv'
+    #funcdatagather(filenameforfile, hourly)
+    #hourly = '6h'
+    #filenameforfile = 'btc_bars_6h.csv'
+    #funcdatagather(filenameforfile, hourly)
+    #hourly = '8h'
+    #filenameforfile = "btc_bars_8h.csv"
+    #funcdatagather(filenameforfile, hourly)
+    #hourly = '12h'
+    #filenameforfile = "btc_bars_12h.csv"
+    #funcdatagather(filenameforfile, hourly)
+    #hourly = '1d'
+    #filenameforfile = 'btc_bars_1d.csv'
+    #funcdatagather(filenameforfile, hourly)
+
     hourly = '2h'
-    filenameforfile = "btc_bars_2h.csv"
+    filenameforfile = 'btc_bars_2h_test.csv'
     funcdatagather(filenameforfile, hourly)
-    hourly = '4h'
-    filenameforfile = 'btc_bars_4h.csv'
-    funcdatagather(filenameforfile, hourly)
-    hourly = '6h'
-    filenameforfile = 'btc_bars_6h.csv'
-    funcdatagather(filenameforfile, hourly)
-    hourly = '8h'
-    filenameforfile = "btc_bars_8h.csv"
-    funcdatagather(filenameforfile, hourly)
-    hourly = '12h'
-    filenameforfile = "btc_bars_12h.csv"
-    funcdatagather(filenameforfile, hourly)
-    hourly = '1d'
-    filenameforfile = 'btc_bars_1d.csv'
-    funcdatagather(filenameforfile, hourly)
+
 
 
 if __name__ == '__main__':
